@@ -77,6 +77,114 @@ img {
 }
 
 
+/* RESPONSIVE TABLET */
+
+@media screen and (max-width: 768px){
+
+/* ROW TOP   */
+#lezioni .row{
+  background-color:  #F2F2CD ;
+}
+
+#lezioni .row > h1{
+      margin: 0px 0 10px 0;
+    font-size: 1.8rem;
+}
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+    margin: auto;
+    font-size: 12px;
+}
+
+#lezioni .left>h3,.right>h3{
+margin:  10px 0 0 0;
+}
+
+#lezioni .row img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
+}
+
+/* ROW CENTER */
+
+#steps .left>h3,.right>h3,.central>h3 {
+margin:  10px 0 0 0;
+}
+#steps .row{
+  background-color:  white ;
+  margin: 0;
+}
+
+#steps .row > h1{
+      margin: 10px 0;
+    font-size: 1.8rem
+}
+
+#steps .row>.left,
+#steps .row>.right,
+#steps .row>.central{
+    margin: auto;
+    font-size: 12px;
+}
+
+#steps .row img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
+}
+
+/* ROW BOTTOM */
+#why .first>h3,.second>h3,.third>h3 {
+margin:  10px 0 0 0;
+}
+#why .row{
+  background-color:  #F2F2CD ;
+  margin: 0;
+}
+
+#why .row > h1{
+      margin: 10px 0;
+     font-size: 1.8rem
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third{
+    margin: 30px auto auto auto;
+    font-size: 12px;
+    float: left;
+    width: 33%;
+}
+
+#why .row hr{
+  display: none;
+}
+
+#why .row img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 85px;
+}
+
+
+/* GLOBAL */
+  body{
+    margin: 0;
+  }
+
+  .row{
+    margin-top: 0px;
+    width: 100%;
+  }
+
+
+}
+
 
 /* RESPONSIVE MOBILE */
 
@@ -159,13 +267,16 @@ margin:  10px 0 0 0;
 #why .row>.first,
 #why .row>.second,
 #why .row>.third{
+    width: 98%;
+    float: none;
     margin: 30px auto auto auto;
     font-size: 12px;
 }
 
 #why .row hr{
+  display: block;
   border: 1px solid black;
-  margin: 0 9px;
+  margin: 0 5px;
 }
 
 #why .row img {
