@@ -76,6 +76,8 @@ img {
   clear: both;
 }
 
+
+
 /* RESPONSIVE MOBILE */
 
 @media screen and (max-width: 420px){
@@ -87,21 +89,32 @@ img {
 
 #lezioni .row > h1{
       margin: 0px 0 10px 0;
-    font-size: 2.5rem
+    font-size: 1.8rem;
 }
 
 #lezioni .row>.left,
 #lezioni .row>.right {
-      width: 100%;
+    width: 98%;
     margin: auto;
     float: none;
-    font-size: 1.9rem;
+    font-size: 12px;
+}
+
+#lezioni .left>h3,.right>h3{
+margin:  10px 0 0 0;
+}
+
+#lezioni .row img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
 }
 
 /* ROW CENTER */
 
-#steps .left>h3,.right>h3,.center>h3 {
-margin: 0;
+#steps .left>h3,.right>h3,.central>h3 {
+margin:  10px 0 0 0;
 }
 #steps .row{
   background-color:  white ;
@@ -110,21 +123,28 @@ margin: 0;
 
 #steps .row > h1{
       margin: 10px 0;
-    font-size: 2.5rem
+    font-size: 1.8rem
 }
 
 #steps .row>.left,
 #steps .row>.right,
 #steps .row>.central{
-      width: 100%;
+    width: 98%;
     margin: auto;
     float: none;
-    font-size: 1.9rem;
+    font-size: 12px;
+}
+
+#steps .row img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
 }
 
 /* ROW BOTTOM */
 #why .first>h3,.second>h3,.third>h3 {
-margin: 0;
+margin:  10px 0 0 0;
 }
 #why .row{
   background-color:  #F2F2CD ;
@@ -133,20 +153,28 @@ margin: 0;
 
 #why .row > h1{
       margin: 10px 0;
-    font-size: 2.5rem
+     font-size: 1.8rem
 }
 
 #why .row>.first,
 #why .row>.second,
 #why .row>.third{
     margin: 30px auto auto auto;
-    font-size: 1.9rem;
+    font-size: 12px;
 }
 
 #why .row hr{
   border: 1px solid black;
-    margin: 0 20px;
+  margin: 0 9px;
 }
+
+#why .row img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 85px;
+}
+
 
 /* GLOBAL */
   body{
@@ -155,6 +183,7 @@ margin: 0;
 
   .row{
     margin-top: 0px;
+    width: 100%;
   }
 
 
