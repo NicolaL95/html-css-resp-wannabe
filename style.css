@@ -12,6 +12,10 @@
   float: left;
 }
 
+
+
+
+
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -71,3 +75,91 @@ img {
 .clear {
   clear: both;
 }
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 420px){
+
+/* ROW TOP   */
+#lezioni .row{
+  background-color:  #F2F2CD ;
+}
+
+#lezioni .row > h1{
+      margin: 0px 0 10px 0;
+    font-size: 2.5rem
+}
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+      width: 100%;
+    margin: auto;
+    float: none;
+    font-size: 1.9rem;
+}
+
+/* ROW CENTER */
+
+#steps .left>h3,.right>h3,.center>h3 {
+margin: 0;
+}
+#steps .row{
+  background-color:  white ;
+  margin: 0;
+}
+
+#steps .row > h1{
+      margin: 10px 0;
+    font-size: 2.5rem
+}
+
+#steps .row>.left,
+#steps .row>.right,
+#steps .row>.central{
+      width: 100%;
+    margin: auto;
+    float: none;
+    font-size: 1.9rem;
+}
+
+/* ROW BOTTOM */
+#why .first>h3,.second>h3,.third>h3 {
+margin: 0;
+}
+#why .row{
+  background-color:  #F2F2CD ;
+  margin: 0;
+}
+
+#why .row > h1{
+      margin: 10px 0;
+    font-size: 2.5rem
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third{
+    margin: 30px auto auto auto;
+    font-size: 1.9rem;
+}
+
+#why .row hr{
+  border: 1px solid black;
+    margin: 0 20px;
+}
+
+/* GLOBAL */
+  body{
+    margin: 0;
+  }
+
+  .row{
+    margin-top: 0px;
+  }
+
+
+}
+
+
+
+
